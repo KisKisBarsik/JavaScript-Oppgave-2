@@ -1,0 +1,304 @@
+/* Oppgave 1 og 2 er under */
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    background-color: cornflowerblue;
+    border: 5px solid rgb(96, 96, 216);
+    border-radius: 50px;
+    margin: 0px 0px 20px 0px;
+}
+
+.oppgave {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+#resultEn {
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+
+#resultTo {
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+
+/* Oppgave 1 og 2 er over */
+
+
+
+/* Oppgave 3 er under */
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 480px;
+    background-color:cornflowerblue;
+    border: 5px solid rgb(96, 96, 216);
+    border-radius: 50px;
+}
+
+.loginText {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 0px 0px 10px 0px;
+    color: white;
+}
+
+#loginEnter {
+    width: 300px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    padding-left: 15px;
+}
+
+#loginEnter:focus {
+    border: 1px solid;
+    outline: none;
+}
+
+.passwordText {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding: 10px 0px;
+    color: white;
+}
+
+#passwordEnter {
+    width: 300px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    padding-left: 15px;
+}
+
+#passwordEnter:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+#text1 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+}
+
+#submit {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0px 0px 0px;
+    width: 240px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+/* Oppgave 3 er over */
+
+
+
+/* Oppave 4 er under */
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 320px;
+    background-color:cornflowerblue;
+    border: 5px solid rgb(96, 96, 216);
+    border-radius: 50px;
+    margin: 20px 0px;
+}
+
+.måneder {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 0px 20px 0px;
+    color: white;
+}
+
+#måned {
+    width: 300px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    padding-left: 15px;
+    margin: 0px 0px 30px 0px;
+}
+
+#måned:focus{
+    border: 1px solid black;
+    outline: none;
+}
+
+#submit2 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 0px 20px 0px;
+    width: 240px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+#text2 {
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+    color: white;
+}
+
+/* Oppgave 4 er over */
+
+
+
+/* Oppgave 5 er under */
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 320px;
+    background-color:cornflowerblue;
+    border: 5px solid rgb(96, 96, 216);
+    border-radius: 50px;
+    margin: 20px 0px;
+}
+
+.vektHøyde {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 0px 20px 0px;
+    color: white;
+}
+
+#høyde, #vekt {
+    width: 300px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    padding-left: 15px;
+    margin: 0px 0px 30px 0px;
+}
+
+#høyde, #vekt:focus{
+    border: 1px solid black;
+    outline: none;
+}
+
+#submit3 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 0px 20px 0px;
+    width: 240px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+#text3 {
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+    color: white;
+}
+
+/* Oppgave 5 er over */
+
+
+
+/* Oppgave 6 er under */
+
+.div5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 320px;
+    background-color:cornflowerblue;
+    border: 5px solid rgb(96, 96, 216);
+    border-radius: 50px;
+    margin: 20px 0px;
+}
+
+.billet {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 0px 20px 0px;
+    color: white;
+}
+
+#alder {
+    width: 300px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    padding-left: 15px;
+    margin: 0px 0px 30px 0px;
+}
+
+#alder:focus{
+    border: 1px solid black;
+    outline: none;
+}
+
+#submit4 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 0px 20px 0px;
+    width: 240px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+#text4 {
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+    color: white;
+}
+
+/* Oppgave 6 er over */
